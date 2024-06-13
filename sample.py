@@ -1,6 +1,7 @@
+#brain stomer
 import streamlit as st
 import os
-
+#creating directories
 SAVE_DIR = "notes"
 
 if not os.path.exists(SAVE_DIR):
